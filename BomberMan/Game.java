@@ -194,6 +194,7 @@ class Game {
         else if(in==2){
             if(bombRow==-1 && bombCol==-1){
                 System.out.println("No Bomb detected");
+                return;
             }
             if(bombRow-1>=0 && (board[bombRow-1][bombCol]=='V'||board[bombRow-1][bombCol]=='B')){
                 board[bombRow-1][bombCol]=' ';
