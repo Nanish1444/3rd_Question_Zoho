@@ -1,0 +1,60 @@
+  A B C D E F G H I J K 
+A * * * * * * * * * * *
+B * B                 *
+C *   *   *   *   *   *
+D *           V       *
+E *   *   *   *   *   * 
+F *             P B   *
+G *   *   *   *   *   *
+H *               V   *
+I *   *   *   *   *   *
+J *                 K *   
+K * * * * * * * * * * * 
+
+INPUT
+
+MAPSIZE : 12
+PLAYER POSITION :FH
+KEY POSITION : JJ
+NO OF VIILANS : 2
+V1 : DG
+V2 : HI
+NO OF BRICKS : 2
+B1 : BB
+B2 : FI
+
+Move a player 
+W -> UP
+
+S -> DOWN
+
+D -> RIGHT
+
+A -> LEFT
+
+Z -> DOWN LEFT
+
+X -> DOWN RIGHT
+
+Q -> UP LEFT
+
+E - > UP RIGHT
+  A B C D E F G H I J K 
+A * * * * * * * * * * *
+B * B                 *
+C *   *   *   *   *   *
+D *           V O     *
+E *   *   *   *   *   * 
+F *             P B   *
+G *   *   *   *   *   *
+H *               V   *
+I *   *   *   *   *   *
+J *                 K *   
+K * * * * * * * * * * * 
+IF PRESS 'M' THEN TWO OPTION WILL SHOW 
+1-> PLANT A BOMB -> IF BOMB IS PLANTED THEN SHOW A 'O' IN THE BOARD
+2-> BLAST A BOMB
+
+THE BOMB ONLY AFFECT THE VILLANS AND BRICK 
+IF A PLAYER PLACE A BOMB THEN HE/SHE GOES BACK TO THE PREVIOUS POSITION HE/SHE CAME
+
