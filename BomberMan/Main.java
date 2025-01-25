@@ -4,12 +4,12 @@ class Main{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Game bomber = new Game(12);
-        bomber.place('F','H','P');
-        bomber.place('J','J','K');
-        bomber.place('D','G','V');
-        bomber.place('H','I','V');
-        bomber.place('B','B','B');
-        bomber.place('F','I','B');
+        bomber.place('F','H','P');//PlayerPostion
+        bomber.place('J','J','K');//Key Position
+        bomber.place('D','G','V');// Villan 1 Position
+        bomber.place('H','I','V');// Villan 2 Position
+        bomber.place('B','B','B');// Brick 1 Position
+        bomber.place('F','I','B');// Brick 3 Position
         bomber.printBoard();
         System.out.println();
 
