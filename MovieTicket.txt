@@ -1,0 +1,56 @@
+Movie Ticket Booking System
+Problem Statement:
+You are designing a simple Movie Ticket Booking System for a theater. The system should handle ticket bookings and cancellations based on seat availability.
+
+Theater Details: The theater has a fixed number of seats.
+
+Booking Requests:
+If a seat is available, the booking is successful.
+If all seats are booked, the request is rejected.
+
+
+Cancellation:
+A user can cancel their ticket, making the seat available again.
+
+
+Check Availability:
+The system should return the number of available seats.
+
+
+Input Format:
+The first integer N represents the total number of seats in the theater.
+The next integer M represents the number of queries.
+The following M lines contain queries, which can be:
+"BOOK Name" → Attempts to book a seat.
+"CANCEL Name" → Cancels a booking.
+"CHECK" → Checks available seats.
+
+
+Output Format:
+If a booking is successful: "Booking confirmed for Name"
+If the theater is full: "Booking failed for Name"
+If a cancellation is successful: "Name's ticket has been canceled"
+If a cancellation fails (name not found): "Name does not have a booking"
+For seat availability checks: "X seats available"
+
+
+Example Input:
+
+
+3  
+5  
+BOOK Alice  
+BOOK Bob  
+BOOK Charlie  
+BOOK David  
+CHECK  
+
+
+Example Output:
+
+
+Booking confirmed for Alice  
+Booking confirmed for Bob  
+Booking confirmed for Charlie  
+Booking failed for David  
+0 seats available  
